@@ -9,7 +9,9 @@ public class FizzBuzz {
                 new NumberWordCorrelation(3, "Fizz"),
                 new NumberWordCorrelation(5, "Buzz"),
         };
+
         boolean isDivisible = false;
+
         for (NumberWordCorrelation correlation : correlations) {
             if (i % correlation.getNumber() == 0) {
                 isDivisible = true;
